@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    overflow: hidden;
+    background-image: url(assets/sunny.jpg);
+    background-size: cover  ;
+}
+
+#left {
+    width: 70%;
+    height: 90vh;
+
+}
+
+#top {
+    height: 400px;
+    width: 800px;
+}
+
+#top p {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+}
+
+#bottom {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    font-size: 50px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+#middle h7 {
+    font-size: 15px;
+}
+
+#right {
+    height: 90vh;
+    width: 30%;
+    backdrop-filter: blur(100px);
+}
+#search-cont{
+    height:7vw;
+    width:100%;
+    position: relative;
+}
+#button {
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    font-size: 30px;
+    right: 0%;
+    position: absolute;
+    background-color: rgb(215, 227, 248);
+    /* background-color: transparent; */
+    color: white;
+    cursor: pointer;    
+}
+
+#input {
+    position: absolute;
+    height: 50%;
+    bottom: 0%;
+    padding-left: 2%;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:rgb(215, 227, 248);
+    border:none;
+    border-bottom: 1px solid rgb(228, 228, 248);
+    outline: none;
+    background-color: transparent;
+}
+#upper1 p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#upper1 h3 {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+}
+#desc{
+    color:white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: medium;
+    text-transform: capitalize;
+}
